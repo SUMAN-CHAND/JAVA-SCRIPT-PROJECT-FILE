@@ -1,0 +1,65 @@
+.max-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-red{
+    background-color: red;
+}
+.min-hig{
+    min-height: 100vh;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.font-bold{
+    font-weight:900;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2{
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.font-blue{
+    color: rgb(226 73 55);
+}
+
+.btn{
+    padding: 5px 12px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(226 73 55);
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.font-size{
+    font-size: 2rem;
+}
+.text-center{
+    text-align: center;
+}

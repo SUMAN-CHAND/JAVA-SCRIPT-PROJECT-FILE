@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Radio Canada', sans-serif;
+    max-width: 80vw;
+}
+
+.navber {
+    height: 60px;
+    display: flex;
+}
+
+.navber li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+    width: 50%;
+    padding: 89px 30px 0  0;
+}
+
+.topright {
+    width: 50%;
+}
+
+.section1 {
+    max-height: 100vh;
+    font-style: normal;
+    color: #6a3630;
+}
+.section1 h1{
+    color: #e14836;
+}
+
+.dumbellimg{
+    width: 208px;
+
+}
+
+.gymjpg{
+    height: 80vh;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.section2{
+    padding:73px;
+
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    margin: 13px 22px;
+    padding:  8px 0px;
+    min-width: 20vw;
+    border: 2px solid rgb(226 73 55);
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.box h2{
+    padding: 12px 0;
+    font-size: 2rem;
+}
+
+.box ul{
+    list-style: none;
+    
+}
+.box ul li{
+    padding: 8px 2px;
+}
+.highlight{
+    font-size: 1.2rem;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+    padding-bottom: 1px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
