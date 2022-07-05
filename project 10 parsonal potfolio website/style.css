@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+}
+.sidebar{
+    position:absolute;
+    background-color: rgb(214, 211, 211);
+    /* width: 300px; */
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 23px;
+}
+nav ul{
+    padding: 0px;
+    font-size: 28px;
+    list-style: none;
+}
+nav ul li{
+    padding: 25px 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 35px;
+}
+.maincontainer{
+    /* background-color: blue; */
+    height: 60vh;
+    width: 76vw;
+    margin: auto;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.hellow{
+    font-size: 50px;
+}
+.name{
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+.about{
+    font-size: 25px;
+}
+.moreabout{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.button{
+ margin-top: 34px;
+}
+.button button{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.button button:hover{
+   color: dodgerblue;
+    background-color: white;
+}
+.devpic img{
+    height: 74vh;
+}
+
+/* contact from */
+.contactfrom h1{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.contactfrom {
+    padding: 0 34px;
+    padding-top: 75px;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px 151px;
+}
+.contactfrom form{
+    padding: 37px;
+}
+.contactfrom form div{
+    padding:10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactfrom form div input{
+    width: 17vw;
+    border-radius: 4px;
+    padding: 3px;
+    margin-top: 4px;
+}
+#emailHelp{
+    margin-top: -11px;
+    font-size: 11px;
+    color: #585cdc;
+}
+#checkbox1{
+    flex-direction: inherit;
+
+}
+#checkbox1 input{
+    width: 40px;
+}
+
+ .btn-sn {
+    padding: 4px;
+    border-radius: 9px;
+    color: white;    
+    background-color: rgb(147 150 153);
+    margin: 0 1px;
+    cursor: pointer;
+}
+.btn-sn:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+/*Blog*/
+.blogcontainer{
+    margin: 10px 154px;
+}
+.blogItem{
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.intro{
+    margin: 10px 154px;
+
+}
+.intro h2{
+    font-family: 'Rubik', sans-serif;
+    margin: 23px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 23px;
+
+}
+.skillContainer{
+    padding: 12px;
+}
+.skill{
+    height: 5px;
+    width: 25vw;
+    background-color:red;
+    border: 2px solid black;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.h100{
+    width: 25vw;
+    background-color:blueviolet;
+}
+.h50{
+    width: 15vw;
+    background-color:yellowgreen;
+}
+.h25{
+    width: 7vw;
+    background-color:aqua;
+}
+.sidebargo{
+    transform:translate( -333px, 0px) ;
+    position: absolute;
+
+}
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.ham{
+    margin-left: 10px;
+}
+.cross{
+margin-left: 134px;
+}
+
+/* media  */
+@media  (max-width: 950px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .devpic{
+        display: none;
+    }
+    /* .sidebar{
+        transform:translate( -333px, 0px) ;
+        position: absolute;
+    } */
+    .blogcontainer, .intro,.contactfrom{
+        margin: 8px;
+    }
+    .contactfrom{
+        padding: 0 0px;
+        padding-top: 0px;
+
+    }
+    .contactfrom form div input{
+            width: 70vw;
+    }
+    .contactfrom form {
+        padding: 0px; 
+    }
+    .moreabout{
+        font-size: 15px;
+    }
+    .hellow {
+        font-size: 34px;
+    }
+    .name {
+        font-size: 21px;
+    }
+    .maincontainer{    
+        padding: 17px;
+    }
+    .contactfrom h1{
+        font-size: 20px;
+    }
+    .button{
+    
+        font-size: 0px;
+    
+    }
+        
+  }
